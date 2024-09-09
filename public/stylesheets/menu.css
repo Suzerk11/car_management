@@ -1,0 +1,52 @@
+html{
+    height:100%
+}
+body{
+    background-image: url("../images/2.jpg");
+    background-size: 100% 100%;
+}
+.head{
+    height: 80px;
+    text-align: center;
+}
+.head h1{
+    color: aliceblue;
+    display: inline-block;
+}
+
+.main{
+    background-color:rgba(19, 14, 14, 0.6);
+    border-radius: 30px;
+    width: 600px;
+    height: 460px;
+    margin: 0 auto;
+    display: flex;
+
+}
+.main div{
+    flex: 1;
+    text-align: center;
+}
+
+
+.menu div{
+    color: #fff;
+    background-color: rgba(241, 212, 129, 0.25);
+    border-radius: 100px;
+    width:100px;
+    height: 80px;
+    display: inline-block;
+    margin-bottom: 55px;
+    line-height: 80px;
+    transition-duration: 1000ms;
+}
+
+.menu h2{
+    color: #fff;
+}
+
+.menu div:hover{
+    cursor: pointer;
+    background-color: rgb(103, 92, 92);
+    color: blanchedalmond;
+}

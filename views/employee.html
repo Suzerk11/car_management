@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+        <link rel="icon"  type= "image/png" href="images/icon.pmg">
+        <script type="text/javascript" src="/javascripts/jquery.js"></script>
+        <script type="text/javascript" src="/javascripts/dialog.js"></script>
+        <script src="/javascripts/employee.js"></script>
+        <script src="/javascripts/template-web.js"></script>
+        <script type="text/html" id="templist">
+            <span>{{res}}</span>
+        </script>
+        </head>
+    <body>
+        <div class="title">
+            <h1>职员信息</h1>
+        </div>
+        <div class="operation">
+            <input type="text" placeholder="按姓名查询">
+            <button>查询</button>
+            <button>添加</button>
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>职员工号</th>
+                        <th>姓名</th>
+                        <th>性别</th>
+                        <th>密码</th>
+                        <th>部门</th>
+                        <th>电话</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

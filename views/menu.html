@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="stylesheets/menu.css">
+    <link rel="icon" type="images/png" href="images/icon.png">
+    <script type="text/javascript" src="javascripts/jquery.js"></script>
+    <script type="text/javascript" src="javascripts/dialog.js"></script>
+</head>
+
+<body>
+    <div class="head">
+        <h1>车辆管理系统</h1>
+    </div>
+    <div class="main">
+        <div class="menu">
+            <h2>信息管理</h2>
+            <div onclick="window.open('employee.html')">
+                职员信息
+            </div>
+            <div onclick="window.open('./car.html')">
+                车辆信息
+            </div>
+            <div onclick="window.open('./dept.html')">
+                部门信息
+            </div>
+        </div>
+        <div class="menu">
+            <h2>记录管理</h2>
+            <div onclick="window.open('./book.html')">申请记录</div>
+            <div onclick="window.open('./oil.html')">加油记录</div>
+        </div>
+        <div class="menu">
+            <h2>业务管理</h2>
+            <div id ="application">申请车辆</div>
+        </div>
+        </div>
+    </div>
+</body>
